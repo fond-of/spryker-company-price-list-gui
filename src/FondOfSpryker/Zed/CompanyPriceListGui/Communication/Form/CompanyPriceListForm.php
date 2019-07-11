@@ -36,7 +36,7 @@ class CompanyPriceListForm extends AbstractType
         $builder->add(static::FIELD_FK_PRICE_LIST, SelectType::class, [
             'label' => 'Price list',
             'choices' => $options[static::OPTIONS_PRICE_LIST],
-            'required' => true,
+            'required' => false,
         ]);
 
         return $this;
