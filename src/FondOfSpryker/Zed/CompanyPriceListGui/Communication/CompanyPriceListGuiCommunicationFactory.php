@@ -11,8 +11,6 @@ use Spryker\Zed\Kernel\Communication\AbstractCommunicationFactory;
 class CompanyPriceListGuiCommunicationFactory extends AbstractCommunicationFactory
 {
     /**
-     * @throws
-     *
      * @return \FondOfSpryker\Zed\CompanyPriceListGui\Dependency\Facade\CompanyPriceListGuiToPriceListFacadeInterface
      */
     protected function getPriceListFacade(): CompanyPriceListGuiToPriceListFacadeInterface
